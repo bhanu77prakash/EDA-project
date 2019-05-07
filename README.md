@@ -17,6 +17,9 @@ torchvision==0.1.9
 
 ## Pretrained models
 The models are present in a drive link mentioned below 
+```
+https://drive.google.com/drive/folders/1xH3zcEEbIePlnW8G029Lqe4nXeWp5AOa?usp=sharing
+```
 Download them and paste them in test_module/models
 
 ## For testing 
@@ -29,7 +32,7 @@ Download them and paste them in test_module/models
 ```
 python run_model.py --image img/CLEVR_val_000013.png --question "Does the small sphere have the same color as the cube left of the gray cube?"
  ```
-
+<i>For frontend model please use sudo apt-get install python-qt4 to install pyqt-4 and sudo apt install python3-tk to install tkinter</i>
 ### Training from scratch
 1. Follow the training section to train the model
 2. Then copy the trained models instead of downloading in the above testing step.
